@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Oscar - Seleção Brasileira</title>
+
+  <!-- Projeto desenvolvido com Bootstrap 5 -->
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #009c3b, #ffdf00);
+      color: white;
+      padding: 60px 0;
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+
+    footer {
+      background-color: #002776;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Oscar 🇧🇷</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="menu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#titulos">Títulos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="container mt-4">
+  <div class="hero text-center">
+    <h1 class="display-4">Oscar</h1>
+    <p class="lead">Meio-campista da Seleção Brasileira</p>
+    <a href="#sobre" class="btn btn-light">Explorar</a>
+  </div>
+</div>
+
+<!-- SOBRE -->
+<div id="sobre" class="container mt-5">
+  <h2 class="text-center mb-4">Sobre o Jogador</h2>
+
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <p>
+        Oscar é um jogador brasileiro conhecido por sua visão de jogo,
+        passes precisos e inteligência dentro de campo.
+        Atuou em clubes como São Paulo, Internacional e Chelsea. Um jogador completo, 
+        tendo grande destaque na seleção brasileira ao lado do menino da vila, Neymar.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <img src="https://img.vavel.com/h/352894_622_ecd48917-75b5-304f-96a4-816ea42ca30c.jpg"
+           class="img-fluid rounded shadow"
+           alt="Jogador Oscar">
+    </div>
+  </div>
+</div>
+
+<!-- CARDS -->
+<div class="container mt-5">
+  <div class="row text-center">
+
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card p-3">
+        <h5>Carreira</h5>
+        <p>Passou por grandes clubes e teve destaque internacional.</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card p-3">
+        <h5>Seleção</h5>
+        <p>Participou da Copa do Mundo e Olimpíadas.</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card p-3">
+        <h5>Estilo</h5>
+        <p>Meio-campista criativo com excelente técnica.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- TÍTULOS -->
+<div id="titulos" class="container mt-5 text-center">
+  <h2 class="mb-4">Títulos</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <ul class="list-group">
+        <li class="list-group-item">🏆 Liga Europa (Chelsea)</li>
+        <li class="list-group-item">🏆 Campeonato Chinês</li>
+        <li class="list-group-item">🏆 Medalha Olímpica (Brasil)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- CONTATO -->
+<div id="contato" class="container mt-5 text-center">
+  <h2 class="mb-4">Contato</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control text-center" placeholder="Seu nome">
+        </div>
+
+        <div class="mb-3">
+          <input type="email" class="form-control text-center" placeholder="Seu email">
+        </div>
+
+        <div class="mb-3">
+          <textarea class="form-control text-center" rows="3" placeholder="Mensagem"></textarea>
+        </div>
+
+        <button class="btn btn-success w-100">Enviar</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- RODAPÉ -->
+<footer class="text-white text-center p-3 mt-5">
+  © 2026 - Projeto sobre Oscar
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
